@@ -20,6 +20,7 @@ public class Individual extends TaxPayer{
         this.healthExpenditures = healthExpenditures;
     }
 
+    //falta ajustar a lógica do exercicio
     @Override
     public Double Tax(){
         if (getAnnualIncome()< 2000.00){
